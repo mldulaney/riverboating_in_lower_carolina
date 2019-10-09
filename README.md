@@ -1,2 +1,2 @@
-# riverboating_in_lower_carolina
+# Riverboating in Lower Carolina
 Transcription of book
