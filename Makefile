@@ -7,6 +7,9 @@ build-path = $(wd)/build
 all: builddir
 	@echo Compiling latex $@
 	@pdflatex -halt-on-error -output-dir $(build-path) $(wd)/$(OBJ).tex
+	makeindex build/$(OBJ).idx
+	@pdflatex -halt-on-error -output-dir $(build-path) $(wd)/$(OBJ).tex
+
 
 
 builddir:
