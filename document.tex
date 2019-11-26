@@ -1,4 +1,4 @@
-\documentclass[11pt, a5paper]{book}
+\documentclass[11pt, a5paper, openright]{book}
 
 % This is a transcription done by Mairi Dulaney of Seattle, WA
 
@@ -15,6 +15,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{makeidx}
 \usepackage[round,sort,comma]{natbib}
+\usepackage{rotating}
 \usepackage{titlesec}
 
 \usepackage[activate={true,nocompatibility},final,
@@ -39,15 +40,14 @@
 
 \titleformat{\section}[display]{\centering\bf}{\enspace}{0em}{}
 
-\overfullrule=2cm
+%\overfullrule=2cm
 
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 
 
 % Some macros to make indexit easier
-\newcommand{\steamer}[1]{\textit{#1}\index{#1,~steamer}}
 \newcommand{\barge}[1]{\textit{#1}\index{#1,~barge}}
-
+\newcommand{\steamer}[1]{\textit{#1}\index{#1,~steamer}}
 
 \makeindex
 
@@ -66,7 +66,7 @@
 
 \chapter{By Paddle, Ore, and Pole}
 
-\section*{Early Boats of Burden}
+\section{Early Boats of Burden}
 
 \textsc{Although} the dugout canoe, or log boat, has disappeared from
 the rivers, creeks, and other waters of North Carolina's southeastern
@@ -108,7 +108,7 @@ flourished on pole boat traffic.  But after steamboats came it went
 neglected because of the river's shallows; and it dried up completely
 when bypassed by the railroads.\par
 
-\section*{The Canoe and Periauger}
+\section{The Canoe and Periauger}
 
 The canoe's larger companion, the periauger, was a boat of burden
 which served in the early commerce of the southeastern counties.  And
@@ -159,7 +159,7 @@ croked streams where oars and poles were needed.  Tides favored all
 kinds of craft upon the lower rivers, and freshet waters often aided
 navigation upon their headwaters.\par
 
-\section*{Eighteenth Century Row Boats}
+\section{Eighteenth Century Row Boats}
 
 Late in the eighteenth century large \textit{row boats} were the
 carriers of produce on the Cape Fear River between Cross Creek, near
@@ -194,7 +194,7 @@ obstructions so as to accomodate small boats and flats, giving many
 farmers located off the large streams access to water
 transportation.\par
 
-\section*{The Pole Boat}
+\section{The Pole Boat}
 
 South (Black) River, a tributary of the Black River, which rises in
 Harnett County, was an important avenue of commerce for farmers of
@@ -220,7 +220,7 @@ cotton.  In the depressed economy they found little inducement to grow
 more than enough food to feed their families and livestock
 \citep[432]{oatesja}.\par
 
-\section*{The Large Flat of Tidewater}
+\section{The Large Flat of Tidewater}
 
 In tidewater no other power than the tide was needed to move the large
 flat.  It was tied up against the tide, and when the tide turned it
@@ -271,7 +271,7 @@ Daniel, the \textit{James Ellis}; Man Dick, the
 the \textit{Jackson}, the \textit{General Cass}, \textit{Macmillan's
   Boat}, and \textit{Robinson's Boat}.\par
 
-\section*{The Steam Flat}
+\section{The Steam Flat}
 
 The steam flat followed the pole and row boat and small flat into the
 narrow and shallow headwaters of the Black and Northeast rivers and
@@ -340,7 +340,7 @@ floated to the rail heads in Wilmington.  Log rafts upon large waters
 might contain as many as five hundred logs with bateau after bateau
 following in tandem.\par
 
-\section*{A Stream Clearance Scheme}
+\section[Stream Clearance Scheme]{A Stream Clearance Scheme}
 
 By the opening of the twentieth century, rafting on the Black River
 had gone on so long that it had become an institution.  Upon her
@@ -365,7 +365,7 @@ during the previous week.  Then on December 24 following it explained:
 timber, Turpentine, Lumber \&c, usually dependent upon the state of
 the rivers, has been coming in abundantly lately.''\par
 
-\section*{An Adeventure of an Eight-Year-Old Boy}
+\section[An Adventure]{An Adeventure of an Eight-Year-Old Boy}
 
 Sometimes the farmers brought along their young sons for the adventure
 and to teach them the ways of the river.  A vivid account of raft
@@ -409,7 +409,8 @@ river like a farmer in his field.  The boat slowed, and as her
 whistled signaled a greeting ``boop, boop, boop'' the captain waved
 from his pilot house to the men and the boy on the raft.\par
 
-\section*{Hard Life on the River}
+\section{Hard Life on the River}
+
 Although the hardy men along the rivers refused to let foul weather
 hinder them in their raft running, they often talked about the
 discomfort and hardships they suffered.\par
@@ -508,7 +509,7 @@ The following afternoon the \textit{Lisbon} arrived with \textit{Liz}.
 The boy had named the gilt in honor of
 Captain Black's\index{Black, Captain D.~J.} boat.  \citep{johnsonwc}\par
 
-\section*{The Prized Piano}
+\section{The Prized Piano}
 
 Sometimes Sampson County farmers above the head of navigation for
 Black River steamboats would carry their farm produce to market on
@@ -541,7 +542,7 @@ silverware, were lost.\par
 Hyancith treasured her piano until her death in 1976.\\
 \citep{shumpertsb}.\par
 
-\section*{The Snow Train}
+\section{The Snow Train}
 
 Once while recounting the rigors of raft running, one tough lumberjack
 told of a trip down the Waccamaw River.  He was drifting a raft of
@@ -563,11 +564,25 @@ fallen.  He became the center of attention as a crowd of people lined
 the river bank to admire his long procession of snow clad logs.
 \citep{stevensjg}.\par
 
+\makeatletter\@openrightfalse%
+
 \part{II}
 
-\chapter{The First Steamboats}
+\begin{figure}[htb]
+\centering
+  \begin{turn}{90}
+      \begin{minipage}{5.8in}
+        \centering
+        \includegraphics[scale=.18]{ballous_pictorial_24_feb_1855_pp_121}
+        \caption{Market St Wilmington}
+      \end{minipage}
+    \end{turn}
+\end{figure}
 
-\section*{The Monopolies}
+\chapter{The First Steamboats}
+\@openrighttrue\makeatother
+
+\section{The Monopolies}
 
 \textsc{The} year 1818 marked the beginning of steamboat navigation in
 eastern North Carolina when two paddle wheel steamers were put into
@@ -668,7 +683,7 @@ Launching of the \steamer{Henrietta} at Fayetteville and arrival of
 the \steamer{Prometheus} at Wilmington were met with great
 enthusiasm.\par
 
-\section*{The \textit{Prometheus}}
+\section{The \textit{Prometheus}}
 
 The \steamer{Prometheus} was brought down from Beaufort by Captain
 Thomas N.~Gautier\index{Gauitier, Captain Thomas N.}, a worthy old sea
@@ -705,7 +720,7 @@ But the low-powered \steamer{Prometheus} seems to have been less than a
 financial success; she was abandoned in 1825, only seven years after
 her launching.  \citep[19]{sloanth}.\par
 
-\section*{The \textit{Henrietta}}
+\section{The \textit{Henrietta}}
 
 But the story of the \steamer{Henrietta} was quite a different one
 from that of the \steamer{Prometheus}.  As a trail blazer for other
@@ -904,6 +919,59 @@ increases, the supplies and the varieties will increase in the same
 ratio.  In several instances have goods been received here
 (Fayetteville) on the seventh day, after they were shipped from New
 York.''  \citep[4-2-1823]{hr}.\par
+
+\chapter{Ascendancy of Steam Navigation}
+\chaptermark{Steam's Ascendancy}
+
+\textsc{When} James Seawell's\index{Seawell, James} seven-year
+monopoly ended 1 January 1825, other interests were prepared to share
+in the lucrative steamboat business.\par
+
+Seawell and his associates prepared for the competition.  The
+Henrietta Steamboat Company\index{Henrietta~Steamboat~Company} was
+incorporated in the town of Fayetteville by Horatio
+G. Nelson\index{Nelson,~Horatio~G.} and Benjamin
+Rush\index{Rush, Captain Benjamin} of Fayetteville, and Doyle
+O'Hanlon\index{O'Hanlon,~Doyle}, the ship builder of Wilmington.  The
+company was authorized to build one or more additional steamboats and
+the necessary tow boats.  It was also authorized to hold land along
+the water fronts at Fayetteville and Wilmington and along the river
+that wharves and warehouses might be built.
+\citep[27]{turlingtonsw}(N.~C.~Laws, 1827, 37, 38).\par
+
+The Cotton Plant Steamboat
+Company\index{Cotton~Plant~Steamboat~Company} was chartered in 1827
+with the same privileges for their steamer, the
+\steamer{Cotton~Plant}, \citep[27]{turlingtonsw}, which had been built
+in 1826 preparatory to commencing service the following year.  The
+steamer was a side-wheeler of the old walking beam type.\par
+
+By now cotton production, stimulated by the general utilization of the
+cotton gin, accounted for freight second only to naval stores, and it
+seems that the boat's owners found it proper to name her for the plant
+which promised to be so important to her.\par
+
+Before her maiden trip to Wilmington ``a large party of (Fayetteville)
+ladies and gentlemen'' came aboard the ``elegant'' steamer and were
+treated to an excursion down the Cape Fear River ``while music,
+dancing, and other diversions, and a profusion of good cheer,
+enlivened the scene.''  \citep[151]{johnsongg}.  For days after her
+arrival in Wilmington, crowds of people overflowed her decks.\par
+
+The steamer enjoyed twenty or more years active service.  As late as
+1847, she was on a regular schedule between Wilmington and
+Fayetteville under command of Captains John
+Banks\index{Banks, Captain John} and Thomas M. Green\index{Green, Thomas M.}.
+\citep[Marine Intelligence]{wj}.  Years later she sank just below the
+Railroad wharf.  Her hull was abandoned but her machinery was salvaged.
+\citep[clip, n.d.]{fo}.\par
+
+Then came the ill-fated \steamer{John Walker}, built by built by the
+O'Hanlon Ship Yard\index{O'Hanlon Ship Yard} and named for John
+Walker, father of Dr.~John Walker and others of Wilmington.  This
+steamer was first built at Wilmington.  In 1831 her boiler exploded
+below Wilmington, killing Captain Dickson\index{Dickson, Captain} and
+her engineer.  \citep[11-23-1831]{cfr}\citep[2-10-1882]{ws}.\par
 
 
 
