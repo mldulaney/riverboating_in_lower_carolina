@@ -24,3 +24,6 @@ clean:
 
 check:
 	@chktex $(wd)/$(OBJ).tex
+
+book:
+	@pdflatex -halt-on-error -output-dir $(build-path) $(wd)/book.tex
