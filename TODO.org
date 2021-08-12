@@ -1,6 +1,11 @@
+pp 63, line 1595
+
 *** DONE Line 598:  Replace Claremont with proper name
 
     CLOSED: [2019-11-09 Sat 14:45]
 
 *** TODO Line 854:  Verify which Sprunt is cited, clue is "note on p139"
 *** TODO Find CO bibliographic item
+*** TODO Line 1696:  Verify which Sprunt is cited
+*** TODO Line 2971:  Find source for Aaron Kelly, Point Caswell bridge tender
+*** TODO Line 2973, 2996:  Find source for Kelly and also Hill Corbett
