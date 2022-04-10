@@ -2,3 +2,4 @@
 Transcription of book
 
 ## Dependencies
+texlive-was
